@@ -1,9 +1,7 @@
-# Identifikácia bezpečnostných rizík a analýza dát z prostredia počítačových sietí
+# Diplomová práca
+## Identifikácia bezpečnostných rizík a analýza dát z prostredia počítačových sietí
 
-## Slovenská technická univerzita v Bratislave
-## Fakulta informatiky a informačných technológií
-
-### Diplomová práca
+**Slovenská technická univerzita v Bratislave - Fakulta informatiky a informačných technológií**
 
 <table>
     <tr>
