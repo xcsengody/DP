@@ -10754,7 +10754,7 @@
 													"top": 327,
 													"width": 167,
 													"height": 26,
-													"text": "Nastavenie hyperparametrov",
+													"text": "Optimalizácia hyperparametrov",
 													"wordWrap": true
 												},
 												{
@@ -13028,7 +13028,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFu18ju9bRfu8w="
 									},
-									"name": "Nastavenie hyperparametrov"
+									"name": "Optimalizácia hyperparametrov"
 								},
 								{
 									"_type": "UMLAction",
