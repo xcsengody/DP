@@ -101,3 +101,13 @@ SHAIKH, Raheel. Feature Selection Techniques in Machine Learning with Python. To
 SHAH, Tarang. About Train, Validation and Test Sets in Machine Learning. Towards Data Science [online]. 2017, 6.12.2017 [cit. 2019-12-05]. Dostupné z: https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7
 
 PRABHU. Understanding Hyperparameters and its Optimisation techniques. Towards Data Science [online]. 2018, 3.7.2018 [cit. 2019-12-05]. Dostupné z: https://towardsdatascience.com/understanding-hyperparameters-and-its-optimisation-techniques-f0debba07568
+
+TPUs in Colab [online]. [cit. 2019-12-06]. Dostupné z: https://colab.research.google.com/notebooks/tpu.ipynb#scrollTo=a_rjVo-RAoYd
+
+GeoLite2 Free Downloadable Databases [online]. [cit. 2019-12-06]. Dostupné z: https://dev.maxmind.com/geoip/geoip2/geolite2/
+
+The UNSW-NB15 Dataset Description [online]. [cit. 2019-12-06]. Dostupné z: https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
+
+SENAPATI, Deepak. Grid Search vs Random Search. Medium [online]. 2018, 29.8.2018 [cit. 2019-12-06]. Dostupné z: https://medium.com/@senapati.dipak97/grid-search-vs-random-search-d34c92946318
+
+LEMAITRE, G., F. NOGUEIRA, D. OLIVEIRA a C. ARIDAS. Over-sampling. Imbalanced-learn [online]. 2017 [cit. 2019-12-06]. Dostupné z: https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html
