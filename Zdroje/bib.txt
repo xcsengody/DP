@@ -111,3 +111,14 @@ The UNSW-NB15 Dataset Description [online]. [cit. 2019-12-06]. Dostupné z: http
 SENAPATI, Deepak. Grid Search vs Random Search. Medium [online]. 2018, 29.8.2018 [cit. 2019-12-06]. Dostupné z: https://medium.com/@senapati.dipak97/grid-search-vs-random-search-d34c92946318
 
 LEMAITRE, G., F. NOGUEIRA, D. OLIVEIRA a C. ARIDAS. Over-sampling. Imbalanced-learn [online]. 2017 [cit. 2019-12-06]. Dostupné z: https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html
+
+Sklearn.linear_model.SGDClassifier [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html
+
+Sklearn.kernel_approximation.Nystroem [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.kernel_approximation.Nystroem.html
+
+Sklearn.feature_selection.RFE [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html
+
+Sklearn.feature_selection.SelectFromModel [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html
+
+CARPENTER, Jason. Parfit — quick and powerful hyper-parameter optimization with visualizations. Medium: ML Review [online]. 2017, 26.11.2017 [cit. 2019-12-07]. Dostupné z: https://medium.com/mlreview/parfit-hyper-parameter-optimization-77253e7e175e
+
