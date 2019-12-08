@@ -106,8 +106,6 @@ TPUs in Colab [online]. [cit. 2019-12-06]. Dostupné z: https://colab.research.g
 
 GeoLite2 Free Downloadable Databases [online]. [cit. 2019-12-06]. Dostupné z: https://dev.maxmind.com/geoip/geoip2/geolite2/
 
-The UNSW-NB15 Dataset Description [online]. [cit. 2019-12-06]. Dostupné z: https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
-
 SENAPATI, Deepak. Grid Search vs Random Search. Medium [online]. 2018, 29.8.2018 [cit. 2019-12-06]. Dostupné z: https://medium.com/@senapati.dipak97/grid-search-vs-random-search-d34c92946318
 
 LEMAITRE, G., F. NOGUEIRA, D. OLIVEIRA a C. ARIDAS. Over-sampling. Imbalanced-learn [online]. 2017 [cit. 2019-12-06]. Dostupné z: https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html

@@ -1,0 +1,7 @@
+Adresáre:
+- DiplomovaPraca/ – Elektronická verzia diplomovej práce vo formáte .docx a .pdf.
+- Notebooks/ – Projektový adresár programových modulov pre predspracovanie dátovej množiny a strojové učenie. Adresár obsahuje súbory vo formáte .ipynb.
+- Notebooks/lib/ – Adresár vlastných knižníc. Adresár obsahuje súbory vo formáte .py.
+
+Súbory:
+- ObsahElektronickehoMedia.txt – Textový súbor s obsahom adresárov a súborov elektronického média.
