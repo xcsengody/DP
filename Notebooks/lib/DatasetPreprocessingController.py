@@ -12,14 +12,69 @@ from pprint import pprint
 from scipy import stats
 from sklearn import preprocessing
 from collections import Counter
-from sklearn.svm import LinearSVC
 from imblearn.pipeline import make_pipeline
 from sklearn.ensemble import RandomForestRegressor
 from imblearn.over_sampling import (SMOTE,SVMSMOTE,ADASYN)
-from sklearn.model_selection import ParameterGrid
-from sklearn.kernel_approximation import Nystroem
-from sklearn.model_selection import (train_test_split,RandomizedSearchCV, GridSearchCV)
-from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.model_selection import (RandomizedSearchCV, GridSearchCV)
+
+def saveDataset(dataset,fileName):
+  dataset.to_csv(dataset_preprocessed_path+fileName+'.csv', index=False)
+  print("Dataset saved to .../Colab Notebooks/PreprocessedDatasets/{}.csv".format(fileName))
+
+def TreeBasedModelHyperparameterSelector(X_train, y_train)
+  n_estimators = [int(x) for x in np.linspace(start = 10, stop = 100, num = 10)]
+  max_features = ['auto', 'sqrt', 'log2']
+  max_depth = [int(x) for x in np.linspace(10, 100, num = 10)]
+  max_depth.append(None)
+  min_samples_split = [5, 10, 15, 20]
+  min_samples_leaf = [2, 4, 6, 8, 10]
+  bootstrap = [True, False]
+  criterion = ['mse', 'mae']
+
+  random_grid = {'n_estimators': n_estimators,
+                'max_features': max_features,
+                'max_depth': max_depth,
+                'min_samples_split': min_samples_split,
+                'min_samples_leaf': min_samples_leaf,
+                'bootstrap': bootstrap,
+                'criterion': criterion}
+
+  model = RandomForestRegressor()
+  random_search = RandomizedSearchCV(estimator = model, param_distributions = random_grid, n_iter = 10, cv = 10, n_jobs=-1, verbose=2)
+  randomForestRegressor_randomSearch = random_search.fit(X_train, y_train)
+  params = randomForestRegressor_randomSearch.best_params_
+
+  params_n_estimators = params['n_estimators']
+  params_bootstrap = params['bootstrap']
+  params_max_features = params['max_features']
+  params_max_depth = params['max_depth']
+  params_min_samples_split = params['min_samples_split']
+  params_min_samples_leaf = params['min_samples_leaf']
+
+  stop_val=10
+  samples=4
+
+  n_estimators = [int(x) for x in np.linspace(start = params_n_estimators, stop = params_n_estimators+stop_val, num = samples)]
+  bootstrap = [params_bootstrap]
+  max_features = [params_max_features]
+  if params_max_depth is not None:
+    max_depth = [int(x) for x in np.linspace(start= params_max_depth, stop= params_max_depth+stop_val, num = samples)]
+  else:
+    max_depth = [None]
+  min_samples_split = [int(x) for x in np.linspace(start = params_min_samples_split, stop = params_min_samples_split+stop_val, num = samples)]
+  min_samples_leaf = [int(x) for x in np.linspace(start = params_min_samples_leaf, stop = params_min_samples_leaf+stop_val, num = samples)]
+
+  gridSearch_grid = {'n_estimators': n_estimators,
+                    'bootstrap': bootstrap,
+                    'max_features': max_features,
+                    'max_depth': max_depth,
+                    'min_samples_split': min_samples_split,
+                    'min_samples_leaf': min_samples_leaf}
+
+  model = RandomForestRegressor()
+  grid_search = GridSearchCV(model, param_grid = gridSearch_grid, cv = 3, n_jobs=-1, verbose = 2)
+  randomForestRegressor_gridSearch = grid_search.fit(X_train, y_train)
+  return randomForestRegressor_gridSearch.best_params_
 
 def getProtocolNumber(x):
   try:
@@ -27,17 +82,26 @@ def getProtocolNumber(x):
   except:
     return -1;
 
-def portType(x):
-  #Ports range:
-  #Well known: 0-1023 (1)
-  #Registered: 1024-49151 (2)
-  #Private: 49152-65535 (3)
+#Ports range:
+#Well known: 0-1023 (1)
+#Registered: 1024-49151 (2)
+#Private: 49152-65535 (3)
+
+def portTypeNumeric(x):
   if x >= 0 and x < 1024:
     return 1;
   elif x >= 1024 and x < 49152:
     return 2;
   elif x >= 49152 and x < 65536:
     return 3;
+
+def portTypeNominal(x):
+  if x >= 0 and x < 1024:
+    return "Well-Known";
+  elif x >= 1024 and x < 49152:
+    return "Registered";
+  elif x >= 49152 and x < 65536:
+    return "Private";
 
 def isPrivateIP(x):
   #192.168.0.0 - 192.168.255.255
@@ -62,7 +126,7 @@ def isMulticastIP(x):
   else:
     return False
 
-def getIPLocation(ip):
+def getIPLocation(reader, ip):
   try:
     location = reader.country(ip);
     #result = location.country.names['en']+" ("+location.country.iso_code+")";
@@ -78,7 +142,7 @@ def getIPLocation(ip):
 def closeReader():
   reader.close();
 
-def setPredictedValue():
+def setPredictedValue(prediction):
   for p in prediction:
     value=p
     prediction.remove(p)

@@ -1,4 +1,8 @@
+import os
+import pprint
+import seaborn as sns
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 import pylab as pl
 import statsmodels.api as sm
@@ -29,28 +33,155 @@ from sklearn.externals import joblib
 
 datasets={}
 
-def loadPreprocessedDatasets(datasets_to_load):
+def loadModel(file):
+  return joblib.load(machineLearningModels_path+file+'.sav')
+
+def saveModel(dataset, machineLearningModels_path, fileName):
+  joblib.dump(dataset, machineLearningModels_path+fileName+'.sav')
+  print("Model saved to .../Colab Notebooks/MachineLearningModels/{}.sav\n".format(fileName))
+
+def TreeBasedModelHyperparameterSelector(X_train, y_train, randomForest=True):
+  n_estimators = [int(x) for x in np.linspace(start = 10, stop = 100, num = 10)]
+  max_features = ['auto', 'sqrt', 'log2']
+  criterion = ['gini', 'entropy']
+  splitter = ['best', 'random']
+  max_depth = [int(x) for x in np.linspace(10, 100, num = 10)]
+  max_depth.append(None)
+  min_samples_split = [5, 10, 15, 20]
+  min_samples_leaf = [2, 4, 6, 8, 10]
+  bootstrap = [True, False]
+
+  if randomForest:
+    random_grid = {'n_estimators': n_estimators,
+                   'bootstrap': bootstrap,
+                   'max_features': max_features,
+                   'max_depth': max_depth,
+                   'min_samples_split': min_samples_split,
+                   'min_samples_leaf': min_samples_leaf}
+  else:
+    random_grid = {'criterion': criterion,
+                   'splitter': splitter,
+                   'max_features': max_features,
+                   'max_depth': max_depth,
+                   'min_samples_split': min_samples_split,
+                   'min_samples_leaf': min_samples_leaf}
+
+  model = RandomForestClassifier()
+  if not randomForest:
+    model = DecisionTreeClassifier()
+  
+  print("\nRandom Search\n")
+  pprint(random_grid)
+  print("\n")
+  random_search = RandomizedSearchCV(estimator = model, param_distributions = random_grid, n_iter = 10, cv = 10, n_jobs=-1, verbose = 2)
+  randomSearch_result = random_search.fit(X_train, y_train)
+  params = randomSearch_result.best_params_
+  
+  if randomForest:
+    params_n_estimators = params['n_estimators']
+    params_bootstrap = params['bootstrap']
+  else:
+    params_criterion = params['criterion']
+    params_splitter = params['splitter']
+
+  params_max_features = params['max_features']
+  params_max_depth = params['max_depth']
+  params_min_samples_split = params['min_samples_split']
+  params_min_samples_leaf = params['min_samples_leaf']
+  
+  stop_val=10
+  samples=4
+
+  if randomForest:
+    n_estimators = [int(x) for x in np.linspace(start = params_n_estimators, stop = params_n_estimators+stop_val, num = samples)]
+    bootstrap = [params_bootstrap]
+  else:
+    criterion = [params_criterion]
+    splitter = [params_splitter]
+
+  max_features = [params_max_features]
+  if params_max_depth is not None:
+    max_depth = [int(x) for x in np.linspace(start= params_max_depth, stop= params_max_depth+stop_val, num = samples)]
+  else:
+    max_depth = [None]
+  min_samples_split = [int(x) for x in np.linspace(start = params_min_samples_split, stop = params_min_samples_split+stop_val, num = samples)]
+  min_samples_leaf = [int(x) for x in np.linspace(start = params_min_samples_leaf, stop = params_min_samples_leaf+stop_val, num = samples)]
+
+  if randomForest:
+    gridSearch_grid = {'n_estimators': n_estimators,
+                       'bootstrap': bootstrap,
+                       'max_features': max_features,
+                       'max_depth': max_depth,
+                       'min_samples_split': min_samples_split,
+                       'min_samples_leaf': min_samples_leaf}
+  else:
+    gridSearch_grid = {'criterion': criterion,
+                      'splitter': splitter,
+                      'max_features': max_features,
+                      'max_depth': max_depth,
+                      'min_samples_split': min_samples_split,
+                      'min_samples_leaf': min_samples_leaf}
+
+  print("\nGrid Search\n")
+  pprint(gridSearch_grid)
+  print("\n")
+  grid_search = GridSearchCV(estimator = model, param_grid = gridSearch_grid, cv = 3, n_jobs=-1, verbose = 2)
+  gridSearch_result = grid_search.fit(X_train, y_train)
+  print("\nHyperparameters\n")
+  pprint(gridSearch_result.best_params_)
+  return gridSearch_result.best_params_
+
+def printArray(array):
+  for i,a in enumerate(array):
+    print('%d %s' % i,a)
+
+def removeItemFromArray(array, idxs):
+  array.pop(idxs)
+
+def parsePreprocessedDatasetsNames(datasetsToLoad):
+  return [x.strip() for x in datasetsToLoad.split(',')]
+
+def parseDatasetsToMergeNames(datasetsToMerge):
+  return [x.strip() for x in datasetsToMerge.split(',')]
+
+def loadPreprocessedDatasets(dataset_preprocessed_path,datasets_to_load):
   datasets.clear()
   datasets_to_load_len = len(datasets_to_load)
 
   for d in datasets_to_load:
     df_name = d.split(".")[0]
-    datasets[df_name] = pd.read_csv(dataset_preprocessed_path+d, delimiter=',', encoding='utf-8', low_memory=False, skipinitialspace=True, skip_blank_lines=True, verbose=False);
+    datasets[df_name] = pd.read_csv(dataset_preprocessed_path+d+'.csv', delimiter=',', encoding='utf-8', low_memory=False, skipinitialspace=True, skip_blank_lines=True, verbose=False);
 
   print("Datasets:")
   for d in datasets:
     print(d)
+    getDatasetDimensions(datasets[d])
+    
   print("\nTo access dataset use datasets[\'datasetName\']\n")
 
 def mergeDatasets(arrayOfDatasetsNames):
-  frames = arrayOfDatasetsNames
+  try:
+    return mergeDatasetsSubMethod(arrayOfDatasetsNames)
+  except ValueError:
+    print(ValueError)
+
+def mergeDatasetsSubMethod(arrayOfDatasetsNames):
+  frames=[]
+  dimension = datasets[arrayOfDatasetsNames[0]].shape[1]
+  
+  for df in arrayOfDatasetsNames:
+    if datasets[df].shape[1] == dimension:
+      frames.append(datasets[df])
+    else:
+      raise ValueError('Some datasets has not have equal dimensions.\nExcepted {}\nGot {}'.format(dimension,datasets[df].shape[1]))
+
   dataset = pd.concat(frames)
   return dataset.sample(frac=1).reset_index(drop=True)
 
 def getDatasetDimensions(dataset):
   print("Rows: {}\nColumns: {}\n".format(dataset.shape[0],dataset.shape[1]))
 
-def analyzeDataset(dataset):
+def analyzeDataset(dataset, title):
   attack_traffic=dataset[dataset.label.apply(lambda x: x==1)]
   normal_traffic=dataset[dataset.label.apply(lambda x: x==0)]
   total_features=dataset.shape[1];
@@ -60,15 +191,17 @@ def analyzeDataset(dataset):
   attack_traffic_rows=attack_traffic.shape[0];
   attack_traffic_per=(100*attack_traffic_rows)/total_rows;
 
+  print(title)
   print("Total rows: {}\nTotal features: {}\nNormal traffic: {} ({} %)\nAttack traffic: {} ({} %)\n".
         format(total_rows, total_features, normal_traffic_rows, float("{0:.2f}".format(normal_traffic_per)), attack_traffic_rows, float("{0:.2f}".format(attack_traffic_per))));
 
   count_classes = pd.value_counts(dataset.label)
   count_classes.plot(kind="bar")
-  plt.title("Normal vs Attack class distibution")
+  plt.title(title + " - Normal vs Attack class distibution")
   plt.xticks(range(2), ["Normal","Attack"])
   plt.xlabel("Class")
   plt.ylabel("Frequency")
+  print("\n")
 
 def handleNaNcolumns():
   for d in datasets:
@@ -126,16 +259,10 @@ def handleMissingColumns(datasets, drop=False):
     #  if j not in list(df1):
     #      print(j)
 
-def loadModel(file):
-  return joblib.load(machineLearningModels_path+file+'.sav')
-
-def saveModel(dataset, fileName):
-  joblib.dump(dataset, machineLearningModels_path+fileName+'.sav')
-  print("Model saved to .../Colab Notebooks/MachineLearningModels/{}.sav\n".format(fileName))
-
-def getCorelationMatrix(X_train):
+def getCorelationMatrix(X_train, title):
   corrmat = X_train.corr()
   top_corr_features = corrmat.index
+  pl.title(title)
   pl.figure(figsize=(60,60))
   g=sns.heatmap(X_train[top_corr_features].corr(method='pearson', min_periods=1),annot=True,cmap="RdYlGn")
 
@@ -157,10 +284,26 @@ def predict(clf, X, y, title):
   accuracy = accuracy_score(y, prediction)
   print("Accuracy: %.2f%%\n" % (accuracy * 100.0))
 
+  cv = cross_val_score(clf, X, y, cv=10, scoring='roc_auc')
+  print("Standard 10 x Cross-validation accuracy: %f (+/- %f)" % (cv.mean(), (cv.std()*2)))
+
+  skfold = StratifiedKFold(n_splits=10)
+
+  skfold_cv = cross_val_score(clf, X, y, cv=skfold, scoring='roc_auc')
+  print("Stratified 10 x K-fold Cross-validation accuracy: %f (+/- %f)\n" % (skfold_cv.mean(), (skfold_cv.std()*2)))
+
   print("\nClassification Report\n {}\n".format(classification_report(y, prediction)))
 
   print("\nConfusion-matrix\n {}\n".format(pd.crosstab(y, prediction, rownames=['Actual Species'], colnames=['Predicted Species'])))
 
+  '''
+  conf_mat = confusion_matrix(y, prediction)
+  sns.heatmap(conf_mat,annot=True)
+  plt.title("Confusion-matrix")
+  plt.figure(figsize=(20,20))
+  plt.show()
+  '''
+  
   proba = clf.predict_proba(X)
   proba = [p[1] for p in proba]
   print("\nROC-AUC: {}\n".format(roc_auc_score(y, proba)))
@@ -168,40 +311,3 @@ def predict(clf, X, y, title):
   fpr, tpr, thresholds = roc_curve(y.values, proba)
   plot_roc_curve(fpr, tpr)
   print("\n")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  #score = metrics.f1_score(y_test, prediction, average=None)
-  #print("F1 score: {}".format(score))
-
-  #cv = cross_val_score(clf, X_train, y_train, cv=10, scoring='roc_auc')
-  #print("Standard Cross-validation accuracy: %f (+/- %f)" % (cv.mean(), (cv.std()*2)))
-
-  #skfold = StratifiedKFold(n_splits=10)
-
-  #skfold_cv = cross_val_score(clf, X_train, y_train, cv=skfold, scoring='roc_auc')
-  #print("Stratified K-fold Cross-validation accuracy of train set: %f (+/- %f)\n" % (skfold_cv.mean(), (skfold_cv.std()*2)))
-
-  #skfold_cv = cross_val_score(clf, X_valid, y_valid, cv=skfold, scoring='roc_auc')
-  #print("Stratified K-fold Cross-validation accuracy of validation set: %f (+/- %f)\n" % (skfold_cv.mean(), (skfold_cv.std()*2)))
-
-  # Confusion-matrix usually used to evaluate the performance of a multiclass model.
-  #conf_mat = confusion_matrix(y_test, prediction)
-  #sns.heatmap(conf_mat,annot=True)
-  #plt.title("Confusion-matrix")
-  #plt.figure(figsize=(20,20))
-  #plt.show()
