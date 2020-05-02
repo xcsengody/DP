@@ -16,9 +16,9 @@
 
 [9] CARPENTER, Jason. Parfit — quick and powerful hyper-parameter optimization with visualizations. Medium: ML Review [online]. 2017, 26.11.2017 [cit. 2019-12-07]. Dostupné z: https://medium.com/mlreview/parfit-hyper-parameter-optimization-77253e7e175e
 
-[10] Canadian Institute for Cybersecurity [online]. Fredericton [cit. 2019-05-13]. Dostupné z: https://www.unb.ca/cic/datasets/index.html
+[10] CRONE, Sven F., Stefan LESSMANN a Robert STAHLBOCK. The impact of preprocessing on data mining: An evaluation of classifier sensitivity in direct marketing. European Journal of Operational Research [online]. 2006, 173(3), 781-800 [cit. 2020-05-02]. DOI: 10.1016/j.ejor.2005.07.023. ISSN 03772217. Dostupné z: https://linkinghub.elsevier.com/retrieve/pii/S0377221705006739
 
-[11] Cloud TPU [online]. [cit. 2019-12-04]. Dostupné z: https://cloud.google.com/tpu/
+[11] Canadian Institute for Cybersecurity [online]. Fredericton [cit. 2019-05-13]. Dostupné z: https://www.unb.ca/cic/datasets/index.html
 
 [12] DHAIRYA, Kumar. Introduction to Data Preprocessing in Machine Learning. Towards Data Science [online]. 2018, 25.12.2018 [cit. 2019-12-03]. Dostupné z: https://towardsdatascience.com/introduction-to-data-preprocessing-in-machine-learning-a9fa83a5dc9d
 
@@ -30,93 +30,93 @@
 
 [16] GARG, Akash a Prachi MAHESHWARI. A hybrid intrusion detection system: A review. In: 2016 10th International Conference on Intelligent Systems and Control (ISCO) [online]. IEEE, 2016, 2016, s. 1-5 [cit. 2019-05-12]. DOI: 10.1109/ISCO.2016.7726909. ISBN 978-1-4673-7807-9. Dostupné z: http://ieeexplore.ieee.org/document/7726909/
 
-[17] GeoLite2 Free Downloadable Databases [online]. [cit. 2019-12-06]. Dostupné z: https://dev.maxmind.com/geoip/geoip2/geolite2/
+[17] GONZALEZ ZELAYA, Carlos Vladimiro. Towards Explaining the Effects of Data Preprocessing on Machine Learning. In: 2019 IEEE 35th International Conference on Data Engineering (ICDE) [online]. IEEE, 2019, 2019, s. 2086-2090 [cit. 2020-05-02]. DOI: 10.1109/ICDE.2019.00245. ISBN 978-1-5386-7474-1. Dostupné z: https://ieeexplore.ieee.org/document/8731532/
 
-[18] HADDADI, Fariba, Sara KHANCHI, Mehran SHETABI a Vali DERHAMI. Intrusion Detection and Attack Classification Using Feed-Forward Neural Network. In: 2010 Second International Conference on Computer and Network Technology [online]. IEEE, 2010, 2010, s. 262-266 [cit. 2019-05-12]. DOI: 10.1109/ICCNT.2010.28. ISBN 978-1-4244-6961-1. Dostupné z: http://ieeexplore.ieee.org/document/5474495/
+[18] GeoLite2 Free Downloadable Databases [online]. [cit. 2019-12-06]. Dostupné z: https://dev.maxmind.com/geoip/geoip2/geolite2/
 
-[19] HINTON, Todd. Introduction to Data Preprocessing in Machine Learning. Redpoint Global [online]. 2018, 10.7.2018 [cit. 2019-12-03]. Dostupné z: https://www.redpointglobal.com/blog/what-is-data-enrichment/?fbclid=IwAR3lOtF1cBM08sGB8yzgj3evwzK00Nj8Af03oMttUmbpv9pd4Fh2J0tiZHA
+[19] HADDADI, Fariba, Sara KHANCHI, Mehran SHETABI a Vali DERHAMI. Intrusion Detection and Attack Classification Using Feed-Forward Neural Network. In: 2010 Second International Conference on Computer and Network Technology [online]. IEEE, 2010, 2010, s. 262-266 [cit. 2019-05-12]. DOI: 10.1109/ICCNT.2010.28. ISBN 978-1-4244-6961-1. Dostupné z: http://ieeexplore.ieee.org/document/5474495/
 
-[20] HUSSAIN, Jamal a Aishwarya MISHRA. Performance Analysis of Some Neural Network Algorithms using NSL-KDD Dataset. International Journal of Computer Trends and Technology [online]. 2017, 50(1), 43-49 [cit. 2019-05-12]. DOI: 10.14445/22312803/IJCTT-V50P107. ISSN 22312803. Dostupné z: http://www.ijcttjournal.org/archives/ijctt-v50p107
+[20] HINTON, Todd. Introduction to Data Preprocessing in Machine Learning. Redpoint Global [online]. 2018, 10.7.2018 [cit. 2019-12-03]. Dostupné z: https://www.redpointglobal.com/blog/what-is-data-enrichment/?fbclid=IwAR3lOtF1cBM08sGB8yzgj3evwzK00Nj8Af03oMttUmbpv9pd4Fh2J0tiZHA
 
-[21] JAIN, Anurag; BHUPENDRA, L. Classifier selection models for intrusion detection system (IDS). Informatics Engineering, an International Journal (IEIJ), 2016, 4.1: 1-11.
+[21] HUSSAIN, Jamal a Aishwarya MISHRA. Performance Analysis of Some Neural Network Algorithms using NSL-KDD Dataset. International Journal of Computer Trends and Technology [online]. 2017, 50(1), 43-49 [cit. 2019-05-12]. DOI: 10.14445/22312803/IJCTT-V50P107. ISSN 22312803. Dostupné z: http://www.ijcttjournal.org/archives/ijctt-v50p107
 
-[22] JAITLEY, Urvashi. Why Data Normalization is necessary for Machine Learning models. Medium [online]. 2018, 8.10.2018 [cit. 2019-12-04]. Dostupné z: https://medium.com/@urvashilluniya/why-data-normalization-is-necessary-for-machine-learning-models-681b65a05029
+[22] JAIN, Anurag; BHUPENDRA, L. Classifier selection models for intrusion detection system (IDS). Informatics Engineering, an International Journal (IEIJ), 2016, 4.1: 1-11.
 
-[23] JAJISH, Thomas. Intrusion Detection Systems (IDS), Network Intrusion Detection System (NIDS), Host Intrusion Detection System (HIDS), Signatures, Alerts, Logs, False Alarms. Sensor. Free Networking tutorials, System Administration Tutorials and Security Tutorials - omnisecu.com [online]. [cit. 2019-05-12]. Dostupné z: http://www.omnisecu.com/security/infrastructure-and-email-security/intrusion-detection-systems-ids.php
+[23] JAITLEY, Urvashi. Why Data Normalization is necessary for Machine Learning models. Medium [online]. 2018, 8.10.2018 [cit. 2019-12-04]. Dostupné z: https://medium.com/@urvashilluniya/why-data-normalization-is-necessary-for-machine-learning-models-681b65a05029
 
-[24] JIMOH, Hafeez. The tale of missing values in Python. Towards Data Science [online]. 2018, 6.1.2018 [cit. 2019-12-04]. Dostupné z: https://towardsdatascience.com/the-tale-of-missing-values-in-python-c96beb0e8a9d
+[24] JAJISH, Thomas. Intrusion Detection Systems (IDS), Network Intrusion Detection System (NIDS), Host Intrusion Detection System (HIDS), Signatures, Alerts, Logs, False Alarms. Sensor. Free Networking tutorials, System Administration Tutorials and Security Tutorials - omnisecu.com [online]. [cit. 2019-05-12]. Dostupné z: http://www.omnisecu.com/security/infrastructure-and-email-security/intrusion-detection-systems-ids.php
 
-[25] KUMAR, Gulshan. Evaluation Metrics for Intrusion Detection Systems - A Study. International Journal of Computer Science and Mobile Applications [online]. 2014, (11), 11-17 [cit. 2019-05-12]. ISSN 2321-8363. Dostupné z: https://www.researchgate.net/publication/311108073_Evaluation_Metrics_for_Intrusion_Detection_Systems-A_Study
+[25] JIMOH, Hafeez. The tale of missing values in Python. Towards Data Science [online]. 2018, 6.1.2018 [cit. 2019-12-04]. Dostupné z: https://towardsdatascience.com/the-tale-of-missing-values-in-python-c96beb0e8a9d
 
-[26] LEMAITRE, G., F. NOGUEIRA, D. OLIVEIRA a C. ARIDAS. Over-sampling. Imbalanced-learn [online]. 2017 [cit. 2019-12-06]. Dostupné z: https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html
+[26] KANIMOZHI, V. a PREM Jacob, Prem. (2019). UNSW-NB15 dataset feature selection and network intrusion detection using deep learning. International Journal of Recent Technology and Engineering. 7. 443-446.
 
-[27] LI PENG, YUEMING LU, JIEFU GAN a HANG CHENG. Design and implementation of network attacks detection module. In: Third International Conference on Cyberspace Technology (CCT 2015) [online]. Institution of Engineering and Technology, 2015, 2015, 5 .-5 . [cit. 2019-05-12]. DOI: 10.1049/cp.2015.0861. ISBN 978-1-78561-089-9. Dostupné z: https://digital-library.theiet.org/content/conferences/10.1049/cp.2015.0861
+[27] KUMAR, Gulshan. Evaluation Metrics for Intrusion Detection Systems - A Study. International Journal of Computer Science and Mobile Applications [online]. 2014, (11), 11-17 [cit. 2019-05-12]. ISSN 2321-8363. Dostupné z: https://www.researchgate.net/publication/311108073_Evaluation_Metrics_for_Intrusion_Detection_Systems-A_Study
 
-[28] LI, Jing a Chunbo DONG. Research on Network Security Situation Prediction-Oriented Adaptive Learning Neuron. In: 2010 Second International Conference on Networks Security, Wireless Communications and Trusted Computing [online]. IEEE, 2010, 2010, s. 483-485 [cit. 2019-05-12]. DOI: 10.1109/NSWCTC.2010.247. ISBN 978-1-4244-6597-2. Dostupné z: http://ieeexplore.ieee.org/document/5480921/
+[28] LEMAITRE, G., F. NOGUEIRA, D. OLIVEIRA a C. ARIDAS. Over-sampling. Imbalanced-learn [online]. 2017 [cit. 2019-12-06]. Dostupné z: https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html
 
-[29] LIU, Gao, Zheng YAN a Witold PEDRYCZ. Data collection for attack detection and security measurement in Mobile Ad Hoc Networks: A survey. Journal of Network and Computer Applications [online]. 2018, 105, 105-122 [cit. 2019-05-12]. DOI: 10.1016/j.jnca.2018.01.004. ISSN 10848045. Dostupné z: https://linkinghub.elsevier.com/retrieve/pii/S1084804518300043
+[29] LI PENG, YUEMING LU, JIEFU GAN a HANG CHENG. Design and implementation of network attacks detection module. In: Third International Conference on Cyberspace Technology (CCT 2015) [online]. Institution of Engineering and Technology, 2015, 2015, 5 .-5 . [cit. 2019-05-12]. DOI: 10.1049/cp.2015.0861. ISBN 978-1-78561-089-9. Dostupné z: https://digital-library.theiet.org/content/conferences/10.1049/cp.2015.0861
 
-[30] MEHMOOD, Tahir a Helmi B Md RAIS. Machine learning algorithms in context of intrusion detection. In: 2016 3rd International Conference on Computer and Information Sciences (ICCOINS) [online]. IEEE, 2016, 2016, s. 369-373 [cit. 2019-05-13]. DOI: 10.1109/ICCOINS.2016.7783243. ISBN 978-1-5090-2549-7. Dostupné z: http://ieeexplore.ieee.org/document/7783243/
+[30] LI, Jing a Chunbo DONG. Research on Network Security Situation Prediction-Oriented Adaptive Learning Neuron. In: 2010 Second International Conference on Networks Security, Wireless Communications and Trusted Computing [online]. IEEE, 2010, 2010, s. 483-485 [cit. 2019-05-12]. DOI: 10.1109/NSWCTC.2010.247. ISBN 978-1-4244-6597-2. Dostupné z: http://ieeexplore.ieee.org/document/5480921/
 
-[31] MOUSTAFA N., SLAY J. (2018) A Network Forensic Scheme Using Correntropy-Variation for Attack Detection. In: Peterson G., Shenoi S. (eds) Advances in Digital Forensics XIV. DigitalForensics 2018. IFIP Advances in Information and Communication Technology, vol 532. Springer, Cham
+[31] LIU, Gao, Zheng YAN a Witold PEDRYCZ. Data collection for attack detection and security measurement in Mobile Ad Hoc Networks: A survey. Journal of Network and Computer Applications [online]. 2018, 105, 105-122 [cit. 2019-05-12]. DOI: 10.1016/j.jnca.2018.01.004. ISSN 10848045. Dostupné z: https://linkinghub.elsevier.com/retrieve/pii/S1084804518300043
 
-[32] MOUSTAFA, Nour a Jill SLAY. The evaluation of Network Anomaly Detection Systems: Statistical analysis of the UNSW-NB15 data set and the comparison with the KDD99 data set. Information Security Journal: A Global Perspective [online]. 2016, 25(1-3), 18-31 [cit. 2019-05-19]. DOI: 10.1080/19393555.2015.1125974. ISSN 1939-3555. Dostupné z: http://www.tandfonline.com/doi/full/10.1080/19393555.2015.1125974
+[32] MEHMOOD, Tahir a Helmi B Md RAIS. Machine learning algorithms in context of intrusion detection. In: 2016 3rd International Conference on Computer and Information Sciences (ICCOINS) [online]. IEEE, 2016, 2016, s. 369-373 [cit. 2019-05-13]. DOI: 10.1109/ICCOINS.2016.7783243. ISBN 978-1-5090-2549-7. Dostupné z: http://ieeexplore.ieee.org/document/7783243/
 
-[33] MOUSTAFA, Nour a Jill SLAY. UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set). In: 2015 Military Communications and Information Systems Conference (MilCIS) [online]. IEEE, 2015, 2015, s. 1-6 [cit. 2019-05-13]. DOI: 10.1109/MilCIS.2015.7348942. ISBN 978-1-4673-7007-3. Dostupné z: http://ieeexplore.ieee.org/document/7348942/
+[33] MOUSTAFA N., SLAY J. (2018) A Network Forensic Scheme Using Correntropy-Variation for Attack Detection. In: Peterson G., Shenoi S. (eds) Advances in Digital Forensics XIV. DigitalForensics 2018. IFIP Advances in Information and Communication Technology, vol 532. Springer, Cham
 
-[34] Multicollinearity [online]. [cit. 2019-12-04]. Dostupné z: https://www.statisticssolutions.com/multicollinearity/
+[34] MOUSTAFA, Nour a Jill SLAY. The evaluation of Network Anomaly Detection Systems: Statistical analysis of the UNSW-NB15 data set and the comparison with the KDD99 data set. Information Security Journal: A Global Perspective [online]. 2016, 25(1-3), 18-31 [cit. 2019-05-19]. DOI: 10.1080/19393555.2015.1125974. ISSN 1939-3555. Dostupné z: http://www.tandfonline.com/doi/full/10.1080/19393555.2015.1125974
 
-[35] NAVLANI, Avinash. Understanding Logistic Regression in Python. DataCamp [online]. 2018, 7.9.2018 [cit. 2019-12-03]. Dostupné z: https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python
+[35] MOUSTAFA, Nour a Jill SLAY. UNSW-NB15: a comprehensive data set for network intrusion detection systems (UNSW-NB15 network data set). In: 2015 Military Communications and Information Systems Conference (MilCIS) [online]. IEEE, 2015, 2015, s. 1-6 [cit. 2019-05-13]. DOI: 10.1109/MilCIS.2015.7348942. ISBN 978-1-4673-7007-3. Dostupné z: http://ieeexplore.ieee.org/document/7348942/
 
-[36] PRABHU. Understanding Hyperparameters and its Optimisation techniques. Towards Data Science [online]. 2018, 3.7.2018 [cit. 2019-12-05]. Dostupné z: https://towardsdatascience.com/understanding-hyperparameters-and-its-optimisation-techniques-f0debba07568
+[36] Multicollinearity [online]. [cit. 2019-12-04]. Dostupné z: https://www.statisticssolutions.com/multicollinearity/
 
-[37] REVATHI, S. a A. MALATHI. A Detailed Analysis on NSL-KDD Dataset Using Various Machine Learning Techniques for Intrusion Detection. International Journal Of Engineering Research & Technology [online]. IJERT, 2013, 12(2), 1848-1853 [cit. 2019-05-13]. ISSN 2278-0181. Dostupné z: https://www.ijert.org/research/a-detailed-analysis-on-nsl-kdd-dataset-using-various-machine-learning-techniques-for-intrusion-detection-IJERTV2IS120804.pdf
+[37] NAVLANI, Avinash. Understanding Logistic Regression in Python. DataCamp [online]. 2018, 7.9.2018 [cit. 2019-12-03]. Dostupné z: https://www.datacamp.com/community/tutorials/understanding-logistic-regression-python
 
-[38] SAMRIN, Rafath a D VASUMATHI. Review on anomaly based network intrusion detection system. In: 2017 International Conference on Electrical, Electronics, Communication, Computer, and Optimization Techniques (ICEECCOT) [online]. IEEE, 2017, 2017, s. 141-147 [cit. 2019-05-12]. DOI: 10.1109/ICEECCOT.2017.8284655. ISBN 978-1-5386-1205-7. Dostupné z: http://ieeexplore.ieee.org/document/8284655/
+[38] PRABHU. Understanding Hyperparameters and its Optimisation techniques. Towards Data Science [online]. 2018, 3.7.2018 [cit. 2019-12-05]. Dostupné z: https://towardsdatascience.com/understanding-hyperparameters-and-its-optimisation-techniques-f0debba07568
 
-[39] SANI, Yusuf, Ahmed MOHAMEDOU, Khalid ALI, Anahita FARJAMFAR, Mohamed AZMAN a Solahuddin SHAMSUDDIN. An overview of neural networks use in anomaly Intrusion Detection Systems. In: 2009 IEEE Student Conference on Research and Development (SCOReD) [online]. IEEE, 2009, 2009, s. 89-92 [cit. 2019-05-12]. DOI: 10.1109/SCORED.2009.5443289. ISBN 978-1-4244-5186-9. Dostupné z: http://ieeexplore.ieee.org/document/5443289/
+[39] REVATHI, S. a A. MALATHI. A Detailed Analysis on NSL-KDD Dataset Using Various Machine Learning Techniques for Intrusion Detection. International Journal Of Engineering Research & Technology [online]. IJERT, 2013, 12(2), 1848-1853 [cit. 2019-05-13]. ISSN 2278-0181. Dostupné z: https://www.ijert.org/research/a-detailed-analysis-on-nsl-kdd-dataset-using-various-machine-learning-techniques-for-intrusion-detection-IJERTV2IS120804.pdf
 
-[40] SAV File Format [online]. [cit. 2019-12-04]. Dostupné z: https://whatis.techtarget.com/fileformat/SAV-Saved-date-file-for-SPSS-Statistical-Package-for-the-Social-Sciences
+[40] ROY, Bipraneel a Hon CHEUNG. A Deep Learning Approach for Intrusion Detection in Internet of Things using Bi-Directional Long Short-Term Memory Recurrent Neural Network. In: 2018 28th International Telecommunication Networks and Applications Conference (ITNAC) [online]. IEEE, 2018, 2018, s. 1-6 [cit. 2020-05-02]. DOI: 10.1109/ATNAC.2018.8615294. ISBN 978-1-5386-7177-1. Dostupné z: https://ieeexplore.ieee.org/document/8615294/
 
-[41] SAXENA, Aumreesh Ku., Sitesh SINHA a Piyush SHUKLA. General study of intrusion detection system and survey of agent based intrusion detection system. In: 2017 International Conference on Computing, Communication and Automation (ICCCA) [online]. IEEE, 2017, 2017, s. 471-421 [cit. 2019-05-12]. DOI: 10.1109/CCAA.2017.8229866. ISBN 978-1-5090-6471-7. Dostupné z: http://ieeexplore.ieee.org/document/8229866/
+[41] SAMRIN, Rafath a D VASUMATHI. Review on anomaly based network intrusion detection system. In: 2017 International Conference on Electrical, Electronics, Communication, Computer, and Optimization Techniques (ICEECCOT) [online]. IEEE, 2017, 2017, s. 141-147 [cit. 2019-05-12]. DOI: 10.1109/ICEECCOT.2017.8284655. ISBN 978-1-5386-1205-7. Dostupné z: http://ieeexplore.ieee.org/document/8284655/
 
-[42] SCHAELICKE, Lambert, Thomas SLABACH, Branden MOORE a Curt FREELAND. Characterizing the Performance of Network Intrusion Detection Sensors. VIGNA, Giovanni, Christopher KRUEGEL a Erland JONSSON, ed. Recent Advances in Intrusion Detection [online]. Berlin, Heidelberg: Springer Berlin Heidelberg, 2003, 2003, s. 155-172 [cit. 2019-05-12]. Lecture Notes in Computer Science. DOI: 10.1007/978-3-540-45248-5_9. ISBN 978-3-540-40878-9. Dostupné z: http://link.springer.com/10.1007/978-3-540-45248-5_9
+[42] SANI, Yusuf, Ahmed MOHAMEDOU, Khalid ALI, Anahita FARJAMFAR, Mohamed AZMAN a Solahuddin SHAMSUDDIN. An overview of neural networks use in anomaly Intrusion Detection Systems. In: 2009 IEEE Student Conference on Research and Development (SCOReD) [online]. IEEE, 2009, 2009, s. 89-92 [cit. 2019-05-12]. DOI: 10.1109/SCORED.2009.5443289. ISBN 978-1-4244-5186-9. Dostupné z: http://ieeexplore.ieee.org/document/5443289/
 
-[43] SCHOONJANS, Frank. ROC curve analysis. MedCalc [online]. Belgium [cit. 2019-05-06]. Dostupné z: https://www.medcalc.org/manual/roc-curves.php
+[43] SAV File Format [online]. [cit. 2019-12-04]. Dostupné z: https://whatis.techtarget.com/fileformat/SAV-Saved-date-file-for-SPSS-Statistical-Package-for-the-Social-Sciences
 
-[44] SENAPATI, Deepak. Grid Search vs Random Search. Medium [online]. 2018, 29.8.2018 [cit. 2019-12-06]. Dostupné z: https://medium.com/@senapati.dipak97/grid-search-vs-random-search-d34c92946318
+[44] SAXENA, Aumreesh Ku., Sitesh SINHA a Piyush SHUKLA. General study of intrusion detection system and survey of agent based intrusion detection system. In: 2017 International Conference on Computing, Communication and Automation (ICCCA) [online]. IEEE, 2017, 2017, s. 471-421 [cit. 2019-05-12]. DOI: 10.1109/CCAA.2017.8229866. ISBN 978-1-5090-6471-7. Dostupné z: http://ieeexplore.ieee.org/document/8229866/
 
-[45] SHAH, Tarang. About Train, Validation and Test Sets in Machine Learning. Towards Data Science [online]. 2017, 6.12.2017 [cit. 2019-12-05]. Dostupné z: https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7
+[45] SCHAELICKE, Lambert, Thomas SLABACH, Branden MOORE a Curt FREELAND. Characterizing the Performance of Network Intrusion Detection Sensors. VIGNA, Giovanni, Christopher KRUEGEL a Erland JONSSON, ed. Recent Advances in Intrusion Detection [online]. Berlin, Heidelberg: Springer Berlin Heidelberg, 2003, 2003, s. 155-172 [cit. 2019-05-12]. Lecture Notes in Computer Science. DOI: 10.1007/978-3-540-45248-5_9. ISBN 978-3-540-40878-9. Dostupné z: http://link.springer.com/10.1007/978-3-540-45248-5_9
 
-[46] SHAIKH, Raheel. Feature Selection Techniques in Machine Learning with Python. Towards Data Science [online]. 2018, 28.10.2018 [cit. 2019-12-04]. Dostupné z: https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e
+[46] SCHOONJANS, Frank. ROC curve analysis. MedCalc [online]. Belgium [cit. 2019-05-06]. Dostupné z: https://www.medcalc.org/manual/roc-curves.php
 
-[47] SHEELA EVANGELIN PRASAD, S. N., M. V. SRINATH a Murtaza SAADIQUE BASHA. Intrusion Detection Systems, Tools and Techniques – An Overview. Indian Journal of Science and Technology [online]. 2015, 8(35) [cit. 2019-05-12]. DOI: 10.17485/ijst/2015/v8i35/80108. ISSN 0974-5645. Dostupné z: http://www.indjst.org/index.php/indjst/article/view/80108
+[47] SENAPATI, Deepak. Grid Search vs Random Search. Medium [online]. 2018, 29.8.2018 [cit. 2019-12-06]. Dostupné z: https://medium.com/@senapati.dipak97/grid-search-vs-random-search-d34c92946318
 
-[48] SOHEILY-KHAH, Saeid, Pierre-Francois MARTEAU a Nicolas BECHET. Intrusion Detection in Network Systems Through Hybrid Supervised and Unsupervised Machine Learning Process: A Case Study on the ISCX Dataset. In: 2018 1st International Conference on Data Intelligence and Security (ICDIS) [online]. IEEE, 2018, 2018, s. 219-226 [cit. 2019-05-19]. DOI: 10.1109/ICDIS.2018.00043. ISBN 978-1-5386-5762-1. Dostupné z: https://ieeexplore.ieee.org/document/8367767/
+[48] SHAH, Tarang. About Train, Validation and Test Sets in Machine Learning. Towards Data Science [online]. 2017, 6.12.2017 [cit. 2019-12-05]. Dostupné z: https://towardsdatascience.com/train-validation-and-test-sets-72cb40cba9e7
 
-[49] Sklearn.feature_selection.RFE [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html
+[49] SHAIKH, Raheel. Feature Selection Techniques in Machine Learning with Python. Towards Data Science [online]. 2018, 28.10.2018 [cit. 2019-12-04]. Dostupné z: https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e
 
-[50] Sklearn.feature_selection.SelectFromModel [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html
+[50] SHEELA EVANGELIN PRASAD, S. N., M. V. SRINATH a Murtaza SAADIQUE BASHA. Intrusion Detection Systems, Tools and Techniques – An Overview. Indian Journal of Science and Technology [online]. 2015, 8(35) [cit. 2019-05-12]. DOI: 10.17485/ijst/2015/v8i35/80108. ISSN 0974-5645. Dostupné z: http://www.indjst.org/index.php/indjst/article/view/80108
 
-[51] Sklearn.kernel_approximation.Nystroem [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.kernel_approximation.Nystroem.html
+[51] SOHEILY-KHAH, Saeid, Pierre-Francois MARTEAU a Nicolas BECHET. Intrusion Detection in Network Systems Through Hybrid Supervised and Unsupervised Machine Learning Process: A Case Study on the ISCX Dataset. In: 2018 1st International Conference on Data Intelligence and Security (ICDIS) [online]. IEEE, 2018, 2018, s. 219-226 [cit. 2019-05-19]. DOI: 10.1109/ICDIS.2018.00043. ISBN 978-1-5386-5762-1. Dostupné z: https://ieeexplore.ieee.org/document/8367767/
 
-[52] Sklearn.linear_model.SGDClassifier [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html
+[52] THOMAS, Rajesh a Deepa PAVITHRAN. A Survey of Intrusion Detection Models based on NSL-KDD Data Set. In: 2018 Fifth HCT Information Technology Trends (ITT) [online]. IEEE, 2018, 2018, s. 286-291 [cit. 2019-05-13]. DOI: 10.1109/CTIT.2018.8649498. ISBN 978-1-5386-7147-4. Dostupné z: https://ieeexplore.ieee.org/document/8649498/
 
-[53] THOMAS, Rajesh a Deepa PAVITHRAN. A Survey of Intrusion Detection Models based on NSL-KDD Data Set. In: 2018 Fifth HCT Information Technology Trends (ITT) [online]. IEEE, 2018, 2018, s. 286-291 [cit. 2019-05-13]. DOI: 10.1109/CTIT.2018.8649498. ISBN 978-1-5386-7147-4. Dostupné z: https://ieeexplore.ieee.org/document/8649498/
+[53] TIWARI, Mohit, Raj KUMAR, Akash BHARTI a Jai KISHAN. Intrusion Detection Systems. International Journal of Computer Science and Mobile Applications [online]. 2017, (5), 38-44 [cit. 2019-05-12]. ISSN 2320-8163. Dostupné z: https://www.researchgate.net/publication/316599266_INTRUSION_DETECTION_SYSTEM
 
-[54] TIWARI, Mohit, Raj KUMAR, Akash BHARTI a Jai KISHAN. Intrusion Detection Systems. International Journal of Computer Science and Mobile Applications [online]. 2017, (5), 38-44 [cit. 2019-05-12]. ISSN 2320-8163. Dostupné z: https://www.researchgate.net/publication/316599266_INTRUSION_DETECTION_SYSTEM
+[54] TPUs in Colab [online]. [cit. 2019-12-06]. Dostupné z: https://colab.research.google.com/notebooks/tpu.ipynb#scrollTo=a_rjVo-RAoYd
 
-[55] TPUs in Colab [online]. [cit. 2019-12-06]. Dostupné z: https://colab.research.google.com/notebooks/tpu.ipynb#scrollTo=a_rjVo-RAoYd
+[55] The UNSW-NB15 Dataset Description [online]. 2018 [cit. 2019-05-14]. Dostupné z: https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
 
-[56] The UNSW-NB15 Dataset Description [online]. 2018 [cit. 2019-05-14]. Dostupné z: https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/
+[56] WARZYŃSKI, Arkadiusz; KOŁACZEK, Grzegorz. Intrusion detection systems vulnerability on adversarial examples. In: 2018 Innovations in Intelligent Systems and Applications (INISTA). IEEE, 2018. p. 1-4.
 
-[57] WARZYŃSKI, Arkadiusz; KOŁACZEK, Grzegorz. Intrusion detection systems vulnerability on adversarial examples. In: 2018 Innovations in Intelligent Systems and Applications (INISTA). IEEE, 2018. p. 1-4.
+[57] WILLIAMS, Nigel, Sebastian ZANDER a Grenville ARMITAGE. A preliminary performance comparison of five machine learning algorithms for practical IP traffic flow classification. ACM SIGCOMM Computer Communication Review [online]. 2006, 36(5) [cit. 2019-05-22]. DOI: 10.1145/1163593.1163596. ISSN 01464833. Dostupné z: http://portal.acm.org/citation.cfm?doid=1163593.1163596
 
-[58] WILLIAMS, Nigel, Sebastian ZANDER a Grenville ARMITAGE. A preliminary performance comparison of five machine learning algorithms for practical IP traffic flow classification. ACM SIGCOMM Computer Communication Review [online]. 2006, 36(5) [cit. 2019-05-22]. DOI: 10.1145/1163593.1163596. ISSN 01464833. Dostupné z: http://portal.acm.org/citation.cfm?doid=1163593.1163596
+[58] What is Correntropy [online]. [cit. 2019-12-03]. Dostupné z: https://www.igi-global.com/dictionary/information-theoretic-learning/6003
 
-[59] What is Correntropy [online]. [cit. 2019-12-03]. Dostupné z: https://www.igi-global.com/dictionary/information-theoretic-learning/6003
+[59] XIA WEI-WEI a WANG HAI-FENG. Prediction model of network security situation based on regression analysis. In: 2010 IEEE International Conference on Wireless Communications, Networking and Information Security [online]. IEEE, 2010, 2010, s. 616-619 [cit. 2018-11-10]. DOI: 10.1109/WCINS.2010.5541853. ISBN 978-1-4244-5850-9. Dostupné z: http://ieeexplore.ieee.org/document/5541853/
 
-[60] XIA WEI-WEI a WANG HAI-FENG. Prediction model of network security situation based on regression analysis. In: 2010 IEEE International Conference on Wireless Communications, Networking and Information Security [online]. IEEE, 2010, 2010, s. 616-619 [cit. 2018-11-10]. DOI: 10.1109/WCINS.2010.5541853. ISBN 978-1-4244-5850-9. Dostupné z: http://ieeexplore.ieee.org/document/5541853/
+[60] ZAMAN, Marzia a Chung-Horng LUNG. Evaluation of machine learning techniques for network intrusion detection. In: NOMS 2018 - 2018 IEEE/IFIP Network Operations and Management Symposium [online]. IEEE, 2018, 2018, s. 1-5 [cit. 2019-05-21]. DOI: 10.1109/NOMS.2018.8406212. ISBN 978-1-5386-3416-5. Dostupné z: https://ieeexplore.ieee.org/document/8406212/
 
-[61] ZAMAN, Marzia a Chung-Horng LUNG. Evaluation of machine learning techniques for network intrusion detection. In: NOMS 2018 - 2018 IEEE/IFIP Network Operations and Management Symposium [online]. IEEE, 2018, 2018, s. 1-5 [cit. 2019-05-21]. DOI: 10.1109/NOMS.2018.8406212. ISBN 978-1-5386-3416-5. Dostupné z: https://ieeexplore.ieee.org/document/8406212/
+[61] ZHIQIANG, Liu, Ghulam MOHI-UD-DIN, Li BING, Luo JIANCHAO, Zhu YE a Lin ZHIJUN. Modeling Network Intrusion Detection System Using Feed-Forward Neural Network Using UNSW-NB15 Dataset. In: 2019 IEEE 7th International Conference on Smart Energy Grid Engineering (SEGE) [online]. IEEE, 2019, 2019, s. 299-303 [cit. 2020-05-02]. DOI: 10.1109/SEGE.2019.8859773. ISBN 978-1-7281-2440-7. Dostupné z: https://ieeexplore.ieee.org/document/8859773/
 

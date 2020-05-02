@@ -78,8 +78,6 @@ DHAIRYA, Kumar. Introduction to Data Preprocessing in Machine Learning. Towards 
 
 HINTON, Todd. Introduction to Data Preprocessing in Machine Learning. Redpoint Global [online]. 2018, 10.7.2018 [cit. 2019-12-03]. Dostupné z: https://www.redpointglobal.com/blog/what-is-data-enrichment/?fbclid=IwAR3lOtF1cBM08sGB8yzgj3evwzK00Nj8Af03oMttUmbpv9pd4Fh2J0tiZHA
 
-Cloud TPU [online]. [cit. 2019-12-04]. Dostupné z: https://cloud.google.com/tpu/
-
 SAV File Format [online]. [cit. 2019-12-04]. Dostupné z: https://whatis.techtarget.com/fileformat/SAV-Saved-date-file-for-SPSS-Statistical-Package-for-the-Social-Sciences
 
 FLOPS (floating-point operations per second) [online]. [cit. 2019-12-04]. Dostupné z: https://whatis.techtarget.com/definition/FLOPS-floating-point-operations-per-second
@@ -110,13 +108,14 @@ SENAPATI, Deepak. Grid Search vs Random Search. Medium [online]. 2018, 29.8.2018
 
 LEMAITRE, G., F. NOGUEIRA, D. OLIVEIRA a C. ARIDAS. Over-sampling. Imbalanced-learn [online]. 2017 [cit. 2019-12-06]. Dostupné z: https://imbalanced-learn.readthedocs.io/en/stable/over_sampling.html
 
-Sklearn.linear_model.SGDClassifier [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html
-
-Sklearn.kernel_approximation.Nystroem [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.kernel_approximation.Nystroem.html
-
-Sklearn.feature_selection.RFE [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html
-
-Sklearn.feature_selection.SelectFromModel [online]. [cit. 2019-12-07]. Dostupné z: https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html
-
 CARPENTER, Jason. Parfit — quick and powerful hyper-parameter optimization with visualizations. Medium: ML Review [online]. 2017, 26.11.2017 [cit. 2019-12-07]. Dostupné z: https://medium.com/mlreview/parfit-hyper-parameter-optimization-77253e7e175e
 
+CRONE, Sven F., Stefan LESSMANN a Robert STAHLBOCK. The impact of preprocessing on data mining: An evaluation of classifier sensitivity in direct marketing. European Journal of Operational Research [online]. 2006, 173(3), 781-800 [cit. 2020-05-02]. DOI: 10.1016/j.ejor.2005.07.023. ISSN 03772217. Dostupné z: https://linkinghub.elsevier.com/retrieve/pii/S0377221705006739
+
+GONZALEZ ZELAYA, Carlos Vladimiro. Towards Explaining the Effects of Data Preprocessing on Machine Learning. In: 2019 IEEE 35th International Conference on Data Engineering (ICDE) [online]. IEEE, 2019, 2019, s. 2086-2090 [cit. 2020-05-02]. DOI: 10.1109/ICDE.2019.00245. ISBN 978-1-5386-7474-1. Dostupné z: https://ieeexplore.ieee.org/document/8731532/
+
+KANIMOZHI, V. a PREM Jacob, Prem. (2019). UNSW-NB15 dataset feature selection and network intrusion detection using deep learning. International Journal of Recent Technology and Engineering. 7. 443-446.
+
+ROY, Bipraneel a Hon CHEUNG. A Deep Learning Approach for Intrusion Detection in Internet of Things using Bi-Directional Long Short-Term Memory Recurrent Neural Network. In: 2018 28th International Telecommunication Networks and Applications Conference (ITNAC) [online]. IEEE, 2018, 2018, s. 1-6 [cit. 2020-05-02]. DOI: 10.1109/ATNAC.2018.8615294. ISBN 978-1-5386-7177-1. Dostupné z: https://ieeexplore.ieee.org/document/8615294/
+
+ZHIQIANG, Liu, Ghulam MOHI-UD-DIN, Li BING, Luo JIANCHAO, Zhu YE a Lin ZHIJUN. Modeling Network Intrusion Detection System Using Feed-Forward Neural Network Using UNSW-NB15 Dataset. In: 2019 IEEE 7th International Conference on Smart Energy Grid Engineering (SEGE) [online]. IEEE, 2019, 2019, s. 299-303 [cit. 2020-05-02]. DOI: 10.1109/SEGE.2019.8859773. ISBN 978-1-7281-2440-7. Dostupné z: https://ieeexplore.ieee.org/document/8859773/
