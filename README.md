@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td><strong>Študijný odbor</strong></td>
-        <td>9.2.5 Softvérové inžinierstvo, 9.2.8 Umelá inteligencia</td>
+        <td>18. Informatika</td>
     </tr>
     <tr>
         <td><strong>Miesto vypracovania</strong></td>
