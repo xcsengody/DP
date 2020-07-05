@@ -6,7 +6,7 @@
 <table>
     <tr>
         <td><strong>Autor</strong></td>
-        <td>Bc. Zoltán Csengődy</td>
+        <td>Ing. Zoltán Csengődy</td>
     </tr>
     <tr>
         <td><strong>Študijný program</strong></td>
@@ -14,7 +14,7 @@
     </tr>
     <tr>
         <td><strong>Študijný odbor</strong></td>
-        <td>18. Informatika</td>
+        <td>Informatika</td>
     </tr>
     <tr>
         <td><strong>Miesto vypracovania</strong></td>
